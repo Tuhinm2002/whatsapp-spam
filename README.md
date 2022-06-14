@@ -2,6 +2,7 @@
 This a Selenium and Django based automation project
 To run this install python the run the command
 ! pip install -r requirement.txt
+# Note : make sure you log out of every whatsapp web screens before using it
 make sure to update chrome
 then Download the chrome web driver from this link
 # https://chromedriver.chromium.org/downloads
