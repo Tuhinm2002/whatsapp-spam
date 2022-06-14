@@ -1,0 +1,6 @@
+torchvision-cpu
+torch-cpu
+selenium
+numpy
+pandas
+

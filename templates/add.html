@@ -1,0 +1,18 @@
+{% extends 'home.html' %}
+
+{% block content %}
+
+
+<form action="" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <div class="text-area">
+        <input type="text" height="140px" width="140px" name="field">
+        <label> Enter the contact name </label>
+    </div>
+    <div class="btn">
+        <button type="submit">Submit</button>
+    </div>     
+</form>
+
+
+{% endblock %}

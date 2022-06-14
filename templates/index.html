@@ -1,0 +1,17 @@
+{% extends 'home.html' %}
+
+{% block content %}
+
+
+<div class="text">
+    <a class="link-text" style="text-decoration:none" href = "{% url 'text_add' %}" > TEXT ELEMENTS </a> 
+</div>
+
+<div class="pic">
+    <a class="link-img" href = "{% url 'image_add' %}" style="text-decoration:none" > IMAGE ELEMENTS </a> 
+</div>
+
+
+
+
+{% endblock %}
