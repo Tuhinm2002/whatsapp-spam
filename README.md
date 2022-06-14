@@ -23,6 +23,8 @@ options.add_argument('Users/<username>/Library/Application Support/Google/Chrome
 # Linux: 
 options.add_argument('/home/<username>/.config/google-chrome/default')
 
-# If you're facing any problem please
+# If you're facing any problem please write the issues
+  
+# Please star this project 
   
   
