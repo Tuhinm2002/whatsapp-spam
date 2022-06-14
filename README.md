@@ -18,10 +18,10 @@ options.add_argument("C:\Users\<username>\AppData\Local\Google\Chrome\User Data\
 options.add_argument('--profile-directory=Default')
 
 # Mac OS X El Capitan: 
-options.add_argument('Users/ <username> /Library/Application Support/Google/Chrome/Default')
+options.add_argument('Users/ </username/> /Library/Application Support/Google/Chrome/Default')
   
 # Linux: 
-options.add_argument('/home/ <username> /.config/google-chrome/default')
+options.add_argument('/home/ </username/> /.config/google-chrome/default')
 
 # If you're facing any problem please write the issues
   
