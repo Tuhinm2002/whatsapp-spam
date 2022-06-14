@@ -38,10 +38,9 @@ def result_func(request):
 
 def selenium_func(data,parser):
     options=webdriver.ChromeOptions()
-    # options.add_argument('user-data-dir=/home/tuhin/.config/google-chrome/default')
-    # options.add_argument('--profile-directory=Default')
+    # options.add_argument('user-data-dir=/home/<usernaem>/.config/google-chrome/default')
 
-    chrome=webdriver.Chrome(executable_path="/mnt/sda1/python Project deploy/wap spam/chromedriver_linux64/chromedriver",options=options)
+    chrome=webdriver.Chrome(executable_path="/<chromewebdriver_folder_name>/chromedriver_linux64/chromedriver",options=options)
     chrome.get("https://web.whatsapp.com/")
     time.sleep(30)
 
